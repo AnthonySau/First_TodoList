@@ -1,7 +1,8 @@
 <?php
 
 $erreurs = "";
-$db = new PDO('mysql:host=localhost;dbname=My_todoList;charset=utf8', 'root', 'root');
+$db = new PDO('mysql:host=localhost;dbname=;charset=utf8', 'root', '');
+// Modifier le nom de votre BDO et le mdp
 
 if (isset($_POST['creer_tache'])) { // On vérifie que la variable POST existe
     if (empty($_POST['creer_tache'])) {  // On vérifie qu'elle as une valeure
