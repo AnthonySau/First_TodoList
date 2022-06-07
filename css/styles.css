@@ -1,0 +1,96 @@
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto';
+}
+
+h1 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+fieldset {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+  padding: 0 10px 30px 10px;
+  border-radius: 10px;
+}
+
+legend {
+  font-size: 50px;
+}
+
+/* Barre de recherche */
+.taches_input {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+}
+
+#inserer {
+  height: 45px;
+}
+
+/* Tableau */
+.taches {
+  width: 600px;
+  border: 1px solid rgb(5, 5, 6);
+  margin: 0 auto;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid rgb(6, 7, 8);
+  padding: 10px;
+}
+
+td {
+  border: 1px solid rgb(7, 8, 9);
+  text-align: center;
+  padding: 10px;
+}
+
+/* Bouton Ajouter */
+.fa-circle-plus {
+  font-size: 35px;
+  color: rgb(14, 191, 73);
+  border-radius: 40px;
+}
+
+.fa-circle-plus:hover {
+  font-size: 45px;
+  cursor: pointer;
+}
+
+#envoyer {
+  border-style: none;
+  background-color: white;
+  height: 45px;
+}
+
+/* Bouton supprimer */
+.suppr {
+  color: red;
+  text-decoration: none;
+}
+
+.suppr:hover {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/* Erreur selection */
+.spanError {
+  color: red;
+  padding-top: 30px;
+}
